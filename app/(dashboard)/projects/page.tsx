@@ -9,7 +9,7 @@ import { CreateProjectModal } from "@/components/projects/CreateProjectModal";
 import { LoadingSpinner } from "@/components/ui/LoadingSpinner";
 
 import toast from "react-hot-toast";
-import { apiClient } from "@/app/lib/api";
+import { apiClient } from "@/app/lib/api/index";
 
 interface Project {
   id: string;
