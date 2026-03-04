@@ -281,7 +281,7 @@ function ProjectPage({ params }: ProjectPageProps) {
       const token = await getToken();
 
       const result = await apiClient.post(
-        `/api/projects/${projectId}/urls/`,
+        `/api/projects/${projectId}/urls`,
         {
           url,
         },
